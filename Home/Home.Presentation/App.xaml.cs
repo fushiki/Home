@@ -15,8 +15,8 @@ namespace Home.Presentation
             Source.Get().AddTopic(new BudgetTopic());
 
 
-            var mainWindow = new Views.MainWindow();
-            mainWindow.DataContext = new MainWindowViewModel();
+            var mainWindow = new Views.MainWindowView();
+            mainWindow.DataContext = new MainWindow();
             mainWindow.Show();
             base.OnStartup(e);
         }

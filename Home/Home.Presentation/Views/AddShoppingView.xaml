@@ -5,31 +5,37 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Home.Presentation"
              xmlns:views="clr-namespace:Home.Presentation.Views"
+             xmlns:buttonGridControl="clr-namespace:Home.Presentation.ButtonGridControl"
              mc:Ignorable="d" 
              d:DesignHeight="400" d:DesignWidth="800">
     <DockPanel>
+        <Border Background="AliceBlue">
+            <DockPanel>
+                <Label Content="{Binding Title}" HorizontalAlignment="Center" DockPanel.Dock="Top"/>
 
-           
-         
 
-        <views:ProductTree Margin="10" Width="300" Height="Auto" DataContext="{Binding AllProductTreeViewModel}" DockPanel.Dock="Left"/>
-        <views:ProductTree x:Name="ProductTree" Margin="10" Width="Auto" Height="Auto" DataContext="{Binding TreeViewModel}" DockPanel.Dock="Right"/>
-        <Button DockPanel.Dock="Bottom" Content="Dodaj Zakupy" Height="20" Margin="10"  Width="100" Command="{Binding CommandAddShopping}" HorizontalAlignment="Center"/>
-        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
-                <TextBox TextWrapping="Wrap" Width="120" Text="{Binding Quantity}"/>
-                <TextBox TextWrapping="Wrap" Width="120" Text="{Binding Price}"/>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button x:Name="ButtonRemove" Content="&lt;-" VerticalAlignment="Center" Command="{Binding CommandRemove}"/>
-                    <Button x:Name="ButtonAdd" Content="-&gt;" VerticalAlignment="Center" Command="{Binding CommandAdd}"/>
+                <Button DockPanel.Dock="Bottom" Content="Basket" Margin="10" Padding="10,1,10,1" Command="{Binding CommandAddShopping}" HorizontalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                        <TextBox TextWrapping="Wrap" Width="120" Text="{Binding Quantity}"/>
+                        <TextBox TextWrapping="Wrap" Width="120" Text="{Binding Price}"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button x:Name="ButtonAdd" Content="+" VerticalAlignment="Center" Command="{Binding CommandAdd}"/>
+                        </StackPanel>
+                    </StackPanel>
                 </StackPanel>
-            </StackPanel>
-        </StackPanel>
-        
-      
+
+                <buttonGridControl:ButtonGridView
+            DockPanel.Dock="Left"
+            DataContext="{Binding ButtonGrid}"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"/>
+
+            </DockPanel>
+        </Border>
 
 
-       
 
     </DockPanel>
 </UserControl>
+

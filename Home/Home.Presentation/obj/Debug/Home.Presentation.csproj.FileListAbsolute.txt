@@ -53,7 +53,6 @@ C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddCate
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddProduct.g.cs
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddProductWindow.g.cs
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddShoppingView.g.cs
-C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\MainWindow.g.cs
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\ProductTree.g.cs
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\RenameView.g.cs
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\TreeCalendarView.g.cs
@@ -74,7 +73,6 @@ C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddCate
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddProduct.baml
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddProductWindow.baml
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddShoppingView.baml
-C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\MainWindow.baml
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\ProductTree.baml
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\RenameView.baml
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\TreeCalendarView.baml
@@ -86,3 +84,5 @@ C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Budget.d
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Core.dll
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Budget.pdb
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Core.pdb
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\MainWindowView.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\MainWindowView.baml

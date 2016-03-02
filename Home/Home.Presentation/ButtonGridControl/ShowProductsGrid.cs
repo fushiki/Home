@@ -14,28 +14,30 @@ namespace Home.Presentation.ButtonGridControl
         private ButtonGridItem _root;
 
         public ICommand OpenCategoryCommand { get; }
+        public ICommand SelectCommand { get; }
 
         private const string SUBCATEGORIES = "subcategories";
 
-        public ShowProductsGrid()
+        public ShowProductsGrid(double ratio,ProductCategory rootCategory,ICommand selectCommand)
+            :base(ratio)
         {
+            SelectCommand = selectCommand;
             // OpenCategoryCommand = new ActionCommand(OpenCategory);
-            // var root = BudgetTopic.Get().Database.AllCategory;
             // var subitems = CreateSubItems(root);
             //_root = new ButtonGridItem(root)
             // {
             //     MouseDoubleClick = OpenCategoryCommand,
             // };
             // Items = new ObservableCollection<ButtonGridItem>(subitems);
-
+            
             BitmapImage bmp = new BitmapImage(new Uri(@"C:\Users\Sadako\Desktop\temp.jpg"));
-            var list = new List<ButtonGridItem>()
+            var list = new List<ButtonGridItem>();
+            for (int i = 0; i < 3; i++)
             {
-                new ButtonGridItem(new ProductCategory() {ImageName = @"C:\Users\Sadako\Desktop\temp.jpg", Name = "0 0"}),
-                new ButtonGridItem(new ProductCategory() {ImageName = @"C:\Users\Sadako\Desktop\temp.jpg", Name = "0 1"}),
-                new ButtonGridItem(new ProductCategory() {ImageName = @"C:\Users\Sadako\Desktop\temp.jpg", Name = "1 0"}),
-                new ButtonGridItem(new ProductCategory() {ImageName = @"C:\Users\Sadako\Desktop\temp.jpg", Name = "1 1"}),
-            };
+                list.Add(new ButtonGridItem(new ProductCategory() { ImageName = @"C:\Users\Sadako\Desktop\temp.jpg", Name = i.ToString() }) {Selected = SelectCommand});
+            }
+            
+               
             Items = new ObservableCollection<ButtonGridItem>(list);
         }
 

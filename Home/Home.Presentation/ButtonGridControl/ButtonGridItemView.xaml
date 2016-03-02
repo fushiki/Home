@@ -30,7 +30,7 @@
             <StackPanel>
 
                 <Image Source="{Binding Image}"  />
-                <Label Background="Transparent" DockPanel.Dock="Bottom" Content="{Binding Header}" Margin="5" HorizontalContentAlignment="Center" />
+                <Label Background="Transparent" Content="{Binding Header}" Margin="5" HorizontalContentAlignment="Center" />
 
             </StackPanel>
         </Border>

@@ -65,9 +65,12 @@ namespace TestProject
         {
             for (int i = 0; i < matrix.Items.Count; i++)
             {
-                Assert.AreEqual(matrix[i/matrix.Dimension, i%matrix.Dimension], matrix.Items[i]);
+                Assert.AreEqual(matrix[i/matrix.ActualDimension.Width, i%matrix.ActualDimension.Width], matrix.Items[i]);
             }
         }
+
+        private ButtonGridMatrix.Dimension Dim(int size) => new ButtonGridMatrix.Dimension(size, size);
+
 
         private ButtonGridItem CreateIndexItem(int index) => new ButtonGridItem(new Product() {Name = index.ToString()});
         [TestMethod]
@@ -88,30 +91,30 @@ namespace TestProject
                 CreateIndexItem(10),
                 CreateIndexItem(11)
             };
-            ButtonGridMatrix matrix = new ButtonGridMatrix();
-            Assert.AreEqual(matrix.Dimension, 0);
+            ButtonGridMatrix matrix = new ButtonGridMatrix(1);
+            Assert.AreEqual(matrix.ActualDimension, Dim(0));
             matrix.Items.Add(items[0]);
-            Assert.AreEqual(matrix.Dimension, 1);
+            Assert.AreEqual(matrix.ActualDimension, Dim(1));
             TestMatrix(matrix);
 
             matrix.Items.Add(items[1]);
-            Assert.AreEqual(matrix.Dimension, 2);
+            Assert.AreEqual(matrix.ActualDimension, Dim(2));
             TestMatrix(matrix);
 
             matrix.Items.Add(items[2]);
-            Assert.AreEqual(matrix.Dimension, 2);
+            Assert.AreEqual(matrix.ActualDimension, Dim(2));
             TestMatrix(matrix);
 
             matrix.Items.Insert(1,items[3]);
-            Assert.AreEqual(matrix.Dimension, 2);
+            Assert.AreEqual(matrix.ActualDimension, Dim(2));
             TestMatrix(matrix);
 
             matrix.Items.Add(items[4]);
-            Assert.AreEqual(matrix.Dimension, 3);
+            Assert.AreEqual(matrix.ActualDimension, Dim(3));
 
 
             matrix.Items.Clear();
-            Assert.AreEqual(matrix.Dimension,0);
+            Assert.AreEqual(matrix.ActualDimension, Dim(0));
 
             items.ForEach((x)=>matrix.Items.Add(x));
 
@@ -120,12 +123,12 @@ namespace TestProject
             4 5 6 7
             8 9 10 11
             */
-            Assert.AreEqual(matrix.Dimension,4);
+            Assert.AreEqual(matrix.ActualDimension, Dim(4));
             TestMatrix(matrix);
 
 
             matrix.Items.RemoveAt(11);
-            Assert.AreEqual(matrix.Dimension, 4);
+            Assert.AreEqual(matrix.ActualDimension, Dim(4));
             TestMatrix(matrix);
 
             matrix.Items.RemoveAt(9);
@@ -134,21 +137,28 @@ namespace TestProject
             4 5 6 7
             8 10
             */
-            Assert.AreEqual(matrix.Dimension,4);
+            Assert.AreEqual(matrix.ActualDimension, Dim(4));
             TestMatrix(matrix);
 
             matrix.Items.Remove(items[8]);
-            Assert.AreEqual(matrix.Dimension,3);
+            Assert.AreEqual(matrix.ActualDimension, Dim(3));
             TestMatrix(matrix);
 
             matrix.Items[3] = items[11];
-            Assert.AreEqual(matrix.Dimension,3);
+            Assert.AreEqual(matrix.ActualDimension, Dim(3));
             TestMatrix(matrix);
 
             matrix.Items.Move(1,4);
-            Assert.AreEqual(matrix.Dimension, 3);
+            Assert.AreEqual(matrix.ActualDimension, Dim(3));
             TestMatrix(matrix);
 
+            var wideMatrix = new ButtonGridMatrix(2);
+            for (int i = 0; i < 8; i++)
+            {
+                wideMatrix.Items.Add(items[i]);
+            }
+            Assert.AreEqual(wideMatrix.ActualDimension,new ButtonGridMatrix.Dimension(4,2));
+            TestMatrix(wideMatrix);
         }
     }
 }

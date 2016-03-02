@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\App.xaml
-11988340658
+11-1713896568
 
-41532837494
+43279345479
 19-1675146892
-ButtonGridControl\ButtonGridItemView.xaml;ButtonGridControl\ButtonGridView.xaml;Views\AddCategoryWindow.xaml;Views\AddProduct.xaml;Views\AddProductWindow.xaml;Views\AddShoppingView.xaml;Views\MainWindow.xaml;Views\ProductTree.xaml;Views\RenameView.xaml;Views\TreeCalendarView.xaml;Views\ViewShoppingHistoryView.xaml;
+ButtonGridControl\ButtonGridItemView.xaml;ButtonGridControl\ButtonGridView.xaml;Views\AddCategoryWindow.xaml;Views\AddProduct.xaml;Views\AddProductWindow.xaml;Views\AddShoppingView.xaml;Views\MainWindowView.xaml;Views\ProductTree.xaml;Views\RenameView.xaml;Views\TreeCalendarView.xaml;Views\ViewShoppingHistoryView.xaml;
 
 False
 

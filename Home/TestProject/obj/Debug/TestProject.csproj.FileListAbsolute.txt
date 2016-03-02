@@ -18,3 +18,15 @@ C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\TestProject\obj\Debug
 C:\Users\Sadako\Source\Repos\Home\Home\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
 C:\Users\Sadako\Source\Repos\Home\Home\TestProject\obj\Debug\TestProject.dll
 C:\Users\Sadako\Source\Repos\Home\Home\TestProject\obj\Debug\TestProject.pdb
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\TestProject.dll
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\TestProject.pdb
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\Home.Budget.dll
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\Home.Core.dll
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\Home.Presentation.exe
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\Home.Budget.pdb
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\Home.Core.pdb
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\Home.Presentation.pdb
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Sadako\Source\Repos\Home\Home\TestProject\bin\Debug\System.Windows.Interactivity.xml

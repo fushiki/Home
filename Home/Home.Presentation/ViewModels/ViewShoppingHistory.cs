@@ -6,7 +6,7 @@ namespace Home.Presentation.ViewModels
 {
     public class ViewShoppingHistory : BaseViewModel,IBudgetDynamicViewModel
     {
-        MainWindowViewModel _parent;
+        MainWindow _parent;
         public ObservableCollection<ShoppingViewModel> ListItems { get; private set; }
 
         
@@ -38,7 +38,7 @@ namespace Home.Presentation.ViewModels
         }
         public TreeCalendar TreeCalendar { get; }
         public CalendarViewModel CalendarViewModel { get; }
-        public ViewShoppingHistory(MainWindowViewModel parent)
+        public ViewShoppingHistory(MainWindow parent)
         {
             _parent = parent;
             ListItems = new ObservableCollection<ShoppingViewModel>( );
