@@ -1,0 +1,31 @@
+﻿<Window x:Class="Home.Presentation.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Home.Presentation"
+        xmlns:views="clr-namespace:Home.Presentation.Views"
+        xmlns:viewModels="clr-namespace:Home.Presentation.ViewModels"
+        xmlns:buttonGridControl="clr-namespace:Home.Presentation.ButtonGridControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800" MinHeight="600" MinWidth="800" MaxWidth="800">
+    <DockPanel>
+        <buttonGridControl:ButtonGridView DataContext="{Binding ButtonsGrid}"/>
+        <StackPanel x:Name="Header" Orientation="Horizontal" DockPanel.Dock="Top">
+            <Button x:Name="ButtonAddShopping" HorizontalAlignment="Left" Margin="10" Content="Dodaj Zakupy" Width="Auto" Command="{Binding CommandChangeView}" CommandParameter="{Binding AddShoppingViewModel}"/>
+            <Button x:Name="ButtonCheckShoppingHistory" HorizontalAlignment="Left" Margin="10" Content="Historia zakupów" Width="Auto" Command="{Binding CommandChangeView}" CommandParameter="{Binding CheckShoppingViewModel}"/>
+            <Button Content="ASD" Click="clickTestrqweq"/>
+            
+        </StackPanel>
+        <ContentControl Content="{Binding CurrentView}"/>
+    </DockPanel>
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type viewModels:AddShoppingViewModel}">
+            <views:AddShoppingView/>
+        </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModels:ViewShoppingHistory}">
+            <views:ViewShoppingHistoryView/>
+        </DataTemplate>
+    </Window.Resources>
+</Window>

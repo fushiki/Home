@@ -1,0 +1,88 @@
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\Home.Presentation.exe.config
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\Home.Presentation.exe
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\Home.Presentation.pdb
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\Budget.dll
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\Core.dll
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\HardcodedInitialization.dll
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\Budget.pdb
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\Core.pdb
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\HardcodedInitialization.pdb
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Home.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\AddProduct.g.cs
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\AddShoppingView.g.cs
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\ProductTree.g.cs
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\App.g.cs
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Home.Presentation_MarkupCompile.cache
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Home.Presentation_MarkupCompile.lref
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\AddProduct.baml
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\AddShoppingView.baml
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\MainWindow.baml
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\ProductTree.baml
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Home.Presentation.g.resources
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Home.Presentation.Properties.Resources.resources
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Home.Presentation.csproj.GenerateResource.Cache
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Home.Presentation.exe
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Home.Presentation.pdb
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\AddCategoryWindow.g.cs
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\AddProductWindow.g.cs
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\AddCategoryWindow.baml
+C:\Users\Sadako\documents\visual studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\AddProductWindow.baml
+C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\ViewShoppingHistoryView.g.cs
+C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\ViewShoppingHistoryView.baml
+C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\TreeCalendarView.g.cs
+C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\TreeCalendarView.baml
+C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\RenameView.g.cs
+C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\Home.Presentation\obj\Debug\Views\RenameView.baml
+C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\Home.Presentation\obj\Debug\ButtonGridControl\ButtonGridView.g.cs
+C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\Home.Presentation\obj\Debug\ButtonGridControl\ButtonGridItemView.g.cs
+C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\Home.Presentation\obj\Debug\ButtonGridControl\ButtonGridItemView.baml
+C:\Users\Sadako\Documents\Visual Studio 2015\Projects\Home\Home.Presentation\obj\Debug\ButtonGridControl\ButtonGridView.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Presentation.exe.config
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Home.Presentation.exe
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Home.Presentation.pdb
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Home.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\ButtonGridControl\ButtonGridItemView.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\ButtonGridControl\ButtonGridView.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddCategoryWindow.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddProduct.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddProductWindow.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddShoppingView.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\ProductTree.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\RenameView.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\TreeCalendarView.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\ViewShoppingHistoryView.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\App.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Home.Presentation_MarkupCompile.cache
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Home.Presentation_MarkupCompile.lref
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Presentation.exe
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Presentation.pdb
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\ButtonGridControl\ButtonGridItemView.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\ButtonGridControl\ButtonGridView.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddCategoryWindow.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddProduct.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddProductWindow.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\AddShoppingView.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\MainWindow.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\ProductTree.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\RenameView.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\TreeCalendarView.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Views\ViewShoppingHistoryView.baml
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Home.Presentation.g.resources
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Home.Presentation.Properties.Resources.resources
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\obj\Debug\Home.Presentation.csproj.GenerateResource.Cache
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Budget.dll
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Core.dll
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Budget.pdb
+C:\Users\Sadako\Source\Repos\Home\Home\Home.Presentation\bin\Debug\Home.Core.pdb

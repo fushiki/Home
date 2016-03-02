@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="Home.Presentation.Views.ProductTree"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:tree="clr-namespace:Home.Presentation.Tree"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <StackPanel>
+        <Label x:Name="LabelTreeTitle" Content="{Binding Title}"/>
+        <TreeView x:Name="TreeView"
+                  HorizontalAlignment="Left"
+                  Height="300"
+                  Margin="0,0,0,0"
+                  VerticalAlignment="Top"
+                  Width="300" 
+                  ItemsSource="{Binding Items}" >
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectedItemChanged">
+                    <i:InvokeCommandAction 
+                        Command="{Binding CommandSelectedItemChanged}" 
+                        CommandParameter="{Binding ElementName=TreeView, Path=SelectedItem}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+            <TreeView.ContextMenu>
+                <ContextMenu Visibility ="{Binding ContextMenuVisibility}">
+                    <MenuItem Header="Add Product" Command="{Binding CommandAddProduct}"/>
+                    <MenuItem Header="Add Category" Command="{Binding CommandAddCategory}"/>
+                </ContextMenu>
+            </TreeView.ContextMenu>
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <Setter Property="IsExpanded" Value="{Binding IsExpanded, Mode=TwoWay}" />
+                    <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+                    <Setter Property="ContextMenu">
+                        <Setter.Value>
+                            <ContextMenu Visibility ="{Binding ContextMenuVisibility}">
+                                <MenuItem Header="Add Product"
+                                          Command="{Binding CommandAddProduct}" 
+                                          CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ContextMenu}}, Path=PlacementTarget.DataContext}" 
+                                          Visibility="{Binding AddVisibility}"/>
+                                <MenuItem Header="Add Category"
+                                          Command="{Binding CommandAddCategory}"
+                                          CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ContextMenu}}, Path=PlacementTarget.DataContext}" 
+                                          Visibility="{Binding AddVisibility}"/>
+                                <MenuItem Header="Rename"
+                                          Command="{Binding CommandRename}"
+                                          CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ContextMenu}}, Path=PlacementTarget.DataContext}" />
+
+                                <MenuItem Header="Delete"
+                                          Command="{Binding CommandDelete}"
+                                          CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ContextMenu}}, Path=PlacementTarget.DataContext}" />
+                                
+                            </ContextMenu>
+                        </Setter.Value>
+                    </Setter>
+                    
+                </Style>
+            </TreeView.ItemContainerStyle>
+            <TreeView.Resources>
+                <HierarchicalDataTemplate
+                    DataType="{x:Type tree:TreeGroup}"
+                    ItemsSource="{Binding Items}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}"/>
+                        <TextBlock Text="{Binding AggregationValue}"/>
+                    </StackPanel>
+                    
+                </HierarchicalDataTemplate>
+                <HierarchicalDataTemplate
+                    DataType="{x:Type tree:TreeLeaf}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}"/>
+                        <TextBlock Text="{Binding AggregationValue}"/>
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.Resources>
+        </TreeView>
+    </StackPanel>
+</UserControl>

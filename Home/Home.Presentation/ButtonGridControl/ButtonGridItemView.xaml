@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="Home.Presentation.ButtonGridControl.ButtonGridItemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:buttonGridControl="clr-namespace:Home.Presentation.ButtonGridControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="100"
+             Name="Item">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="MouseDoubleClick">
+            <i:InvokeCommandAction Command="{Binding MouseDoubleClick}" CommandParameter="{Binding}"/>
+        </i:EventTrigger>
+        <i:EventTrigger EventName="MouseLeftButtonUp">
+            <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}" CommandParameter="{Binding}"/>
+        </i:EventTrigger>
+
+        <i:EventTrigger EventName="MouseEnter">
+            <i:InvokeCommandAction Command="{Binding MouseEnter}" CommandParameter="{Binding}"/>
+        </i:EventTrigger>
+        <i:EventTrigger EventName="MouseLeave">
+            <i:InvokeCommandAction Command="{Binding MouseLeave}" CommandParameter="{Binding}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <StackPanel>
+
+        <Border BorderThickness="2" CornerRadius="10" Padding="6,8,6,2" Background="{Binding BackgroundColor}">
+            <StackPanel>
+
+                <Image Source="{Binding Image}"  />
+                <Label Background="Transparent" DockPanel.Dock="Bottom" Content="{Binding Header}" Margin="5" HorizontalContentAlignment="Center" />
+
+            </StackPanel>
+        </Border>
+
+
+    </StackPanel>
+</UserControl>
+

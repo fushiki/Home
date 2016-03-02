@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Home.Presentation.Views.ViewShoppingHistoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Home.Presentation.Views"
+             xmlns:viewModels="clr-namespace:Home.Presentation.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+            <RadioButton  Content="Calendarz" Margin="5" IsChecked="{Binding IsCalendarEnabled}"/>
+            <RadioButton  Content="Drzewo"  Margin="5" IsChecked="{Binding IsTreeEnabled}"/>
+        </StackPanel>
+        <DockPanel DockPanel.Dock="Left">
+            <ContentControl Content="{Binding CurrentView}" DockPanel.Dock="Top" />
+            <ListBox DockPanel.Dock="Bottom"
+                     HorizontalAlignment="Center"
+                     VerticalAlignment="Stretch"
+                     ItemsSource="{Binding ListItems}"
+                     DisplayMemberPath="Header"
+                     Width="150">
+               
+            </ListBox>
+        </DockPanel>
+        <TreeView/>
+    </DockPanel>
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type viewModels:CalendarViewModel}">
+            <Calendar/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:TreeCalendar}">
+            <local:TreeCalendarView/>
+        </DataTemplate>
+    </UserControl.Resources>
+</UserControl>

@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Home.Presentation.Views.AddProduct"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Home.Presentation"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="150">
+    <StackPanel>
+        <Label x:Name="LabelName" Content="Nazwa" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxName" Margin="0,0,0,0" VerticalAlignment="Top" Width="auto" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+        <Label x:Name="LabelBrand" Content="Marka" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxBrand" Margin="0,0,0,0" VerticalAlignment="Top" Width="auto" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+        <Label x:Name="LabelVolume" Content="Objętość"  HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxVolume" Margin="0,0,0,0" VerticalAlignment="Top" Width="auto" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+        <RadioButton x:Name="RadioButtonMass" Margin="5,5,0,0" Content="Masa"/>
+        <RadioButton x:Name="RadioButtonPiece" Margin="5,0,0,5" Content="Sztuka"/>
+        <Button x:Name="ButtonAdd" Content="Dodaj" Command="{Binding AddCommand}"/>
+
+
+
+    </StackPanel>
+</UserControl>
